@@ -33,6 +33,5 @@ public class AppController {
         ReadExcelFile test = new ReadExcelFile();
         test.setInputFile("Execution.xls");
         test.read();
-        System.out.println("coucou");
     }
 }
