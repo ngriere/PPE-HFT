@@ -3,6 +3,7 @@ package Controllers;
 import Models.DBConnection;
 import Models.DBConnectionImpl;
 import Models.ReadExcelFile;
+import Views.GUI_PPE_HFT;
 import java.io.IOException;
 import java.sql.SQLException;
 
@@ -30,8 +31,12 @@ public class AppController {
          }*/
 
         // Read excel file
+        /*
         ReadExcelFile test = new ReadExcelFile();
         test.setInputFile("Execution.xls");
         test.read();
+        */
+        
+        GUI_PPE_HFT.programMainWindowInterface();
     }
 }
